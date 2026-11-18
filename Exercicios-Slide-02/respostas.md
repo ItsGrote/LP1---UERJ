@@ -200,7 +200,7 @@ num_2 = int(input())
 
 if(num_1 > num_2):
 	aux = num_1
-	num_1 = n2
+	num_1 = num_2
 	num_2 = aux
 
 for i in range(num_1 + 1, num_2):
@@ -214,14 +214,14 @@ for i in range(num_1 + 1, num_2):
 
 int main(void){
 
-int n1, n2, aux;
+int num_1, num_2, aux;
 
 scanf("%d %d", &num_1, &num_2);
 
 if(num_1 > num_2){
-	aux = n1;
-	n1 = n2;
-	n2 = aux;
+	aux = num_1;
+	num_1 = num_2;
+	num_2 = aux;
 }
 
 for(int i = num_1 + 1; i < num_2; i++ ){
