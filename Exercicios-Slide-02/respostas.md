@@ -8,7 +8,7 @@ Feita em aula.
 
 ## Questao 02
 
-'''c
+```c
 #include <stdio.h>
 
 int main(void){
@@ -25,11 +25,11 @@ if(num_1 > num_2){
 
 return 0;
 }
-'''
+```
 
 ## Questao 03
 
-'''c
+```c
 #include <stdio.h>
 
 int main(void){
@@ -49,11 +49,11 @@ printf("BOM NEGOCIO\n");
 
 return 0;
 }
-'''
+```
 
 ## Questao 04
 
-'''c
+```c
 #include <stdio.h>
 
 int main(void){
@@ -79,12 +79,12 @@ if(velocidade_atual_em_kph > limite_superior){
 
 return 0;
 }
-'''
+```
 
 
 ## Questao 05
 
-'''c
+```c
 #include <stdio.h>
 
 int main(void){
@@ -103,11 +103,11 @@ printf("%f\n", soma);
 
 return 0;
 }
-'''
+```
 
 ## Questao 	06
 
-'''c
+```c
 #include <stdio.h>
 
 int main(void){
@@ -124,11 +124,11 @@ for(int i = 1; i <= limite_superior; i++){
 printf("%d\n", soma);
 return 0;
 }
-'''
+```
 
 ## Questao 07
 
-'''c
+```c
 #include <stdio.h>
 
 int main(void){
@@ -188,13 +188,13 @@ printf("%d\n", identificador_time[idx_min]);
 
 return 0;
 }
-'''
+```
 
 ## Questao 08
 
 1) Em Python:
 
-'''python
+```python
 num_1 = int(input())
 num_2 = int(input())
 
@@ -205,11 +205,11 @@ if(num_1 > num_2):
 
 for i in range(num_1 + 1, num_2):
 	print(i)
-'''
+```
 	
 2) Em C:
 
-'''c
+```c
 #include<stdio.h>
 
 int main(void){
@@ -230,4 +230,4 @@ for(int i = num_1 + 1; i < num_2; i++ ){
 
 return 0;
 }
-'''
+```
