@@ -1,9 +1,14 @@
-Questoes Slide 02
+## Questoes Slide 02
 
-#01
-//feita em aula
+Disciplina: Linguagem de Programacao I - UERJ
 
-#02
+## Questao 01
+
+Feita em aula.
+
+## Questao 02
+
+'''c
 #include <stdio.h>
 
 int main(void){
@@ -20,8 +25,11 @@ if(num_1 > num_2){
 
 return 0;
 }
+'''
 
-#03
+## Questao 03
+
+'''c
 #include <stdio.h>
 
 int main(void){
@@ -41,8 +49,11 @@ printf("BOM NEGOCIO\n");
 
 return 0;
 }
+'''
 
-#04
+## Questao 04
+
+'''c
 #include <stdio.h>
 
 int main(void){
@@ -66,15 +77,14 @@ if(velocidade_atual_em_kph > limite_superior){
 	printf("MANTENHA\n");
 }
 
-
-
-
-
 return 0;
 }
+'''
 
 
-#05
+## Questao 05
+
+'''c
 #include <stdio.h>
 
 int main(void){
@@ -93,9 +103,11 @@ printf("%f\n", soma);
 
 return 0;
 }
+'''
 
-#06	
+## Questao 	06
 
+'''c
 #include <stdio.h>
 
 int main(void){
@@ -112,8 +124,11 @@ for(int i = 1; i <= limite_superior; i++){
 printf("%d\n", soma);
 return 0;
 }
+'''
 
-#07
+## Questao 07
+
+'''c
 #include <stdio.h>
 
 int main(void){
@@ -171,29 +186,30 @@ for(int i = 0; i < numero_de_times; i++){
 printf("%d\n", identificador_time[idx_max]);
 printf("%d\n", identificador_time[idx_min]);
 
-
-
 return 0;
 }
+'''
 
-#08
+## Questao 08
 
 1) Em Python:
 
-n1 = int(input())
-n2 = int(input())
+'''python
+num_1 = int(input())
+num_2 = int(input())
 
 if(num_1 > num_2):
 	aux = num_1
-	num_1 = num_2
+	num_1 = n2
 	num_2 = aux
 
-for i in range(n1 + 1, n2):
+for i in range(num_1 + 1, num_2):
 	print(i)
-	
+'''
 	
 2) Em C:
 
+'''c
 #include<stdio.h>
 
 int main(void){
@@ -212,6 +228,6 @@ for(int i = num_1 + 1; i < num_2; i++ ){
 	printf("%d\n", i);
 }
 
-
 return 0;
 }
+'''
